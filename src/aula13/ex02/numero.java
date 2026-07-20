@@ -9,5 +9,6 @@ public class numero {
         System.out.println("Qual sua idade?");
         int idade = scanner.nextInt();
         System.out.println("O número informado foi " + idade);
+        scanner.close();
     }
 }
