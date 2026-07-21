@@ -11,7 +11,6 @@ public class pesoIdeal_v2 {
         System.out.println("Qual é o seu sexo? f = feminino, m = masculino");
         String sexo = scanner.next();
         double pesoIdeal = 0.0;
-//        double idealMulher = 0.0;
         if (sexo.equals("M") || sexo.equals("m")){
             pesoIdeal = (72.7 * altura) - 58;
         }
